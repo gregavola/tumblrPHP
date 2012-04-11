@@ -3,11 +3,13 @@
 This a library written to interact with the Tumblr API (http://www.tumblr.com/docs/en/api/v2) using both oAuth and Standard calls.
 
 # Requirements
-PHP 5+
+PHP 5+<br />
 CURL
 
 # Getting Started
-Follow the instructions in <code>index.php</code> for a detailed example of the OAuth authentication. After obtain the tokens, if you want to make authenticated calls you just need to use the following method:
+Follow the instructions in <code>index.php</code> for a detailed example of the OAuth authentication. 
+
+<br />After obtaining the Authentication tokens, if you want to make authenticated calls you just need to use the following method:
 
 <pre>
 $tumblr = new Tumblr(consumer, secret, user_token, user_secret);
