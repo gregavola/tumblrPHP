@@ -10,19 +10,15 @@ CURL
 Follow the instructions in <code>index.php</code> for a detailed example of the OAuth authentication. After obtain the tokens, if you want to make authenticated calls you just need to use the following method:
 
 <pre>
-	<?
-		$tumblr = new Tumblr(consumer, secret, user_token, user_secret);
-		$res = $tumblr->oauth_get(METHOD_HERE, PARAMS_HERE);
-	?>
+$tumblr = new Tumblr(consumer, secret, user_token, user_secret);
+$res = $tumblr->oauth_get(METHOD_HERE, PARAMS_HERE);
 </pre>
 
-If you are using non-authenticated calls - all you need to do is use the <pre>get</pre> method:
+If you are using non-authenticated calls - all you need to do is use the <code>get</code> method:
 
 <pre>
-	<?
-		$tumblr = new Tumblr(consumer, secret);
-		$res = $tumblr->get(METHOD_HERE, PARAMS_HERE);
-	?>
+$tumblr = new Tumblr(consumer, secret);
+$res = $tumblr->get(METHOD_HERE, PARAMS_HERE);
 </pre>
 
 # Getting Help
