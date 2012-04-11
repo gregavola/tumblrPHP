@@ -23,6 +23,9 @@ $tumblr = new Tumblr(consumer, secret);
 $res = $tumblr->get(METHOD_HERE, PARAMS_HERE);
 </pre>
 
+# To Do
+- Error Handling
+
 # Getting Help
 If you need help or have questions, please contact Greg Avola on Twitter at http://twitter.com/gregavola
 
