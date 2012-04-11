@@ -1,10 +1,11 @@
 # tumblrPHP - A PHP Library for the Tumblr API (V2)
 
-This a library written to interact with the Tumblr API (http://www.tumblr.com/docs/en/api/v2) using both oAuth and Standard calls.
+This a library written to interact with the Tumblr API (http://www.tumblr.com/docs/en/api/v2) using both oAuth Authenticated Calls and Non-Authenticated calls.<br />
 
 # Requirements
 PHP 5+<br />
-CURL
+CURL<br />
+oAuth for PHP (included in this repo)<br />
 
 # Getting Started
 Follow the instructions in <code>index.php</code> for a detailed example of the OAuth authentication. 
@@ -24,7 +25,7 @@ $res = $tumblr->get(METHOD_HERE, PARAMS_HERE);
 </pre>
 
 # To Do
-- Error Handling
+Error Handling
 
 # Getting Help
 If you need help or have questions, please contact Greg Avola on Twitter at http://twitter.com/gregavola
