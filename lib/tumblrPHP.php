@@ -179,10 +179,10 @@ class Tumblr {
 		
 		$curl2 = curl_init();
 		
-		if (is_array($parameters) && sizeof($parameters) != 0)
+		if ($method == "POST")
 		{
 			curl_setopt($curl, CURLOPT_POST, true);
-			curl_setopt($curl, CURLOPT_POSTFIELDS, $params);
+			curl_setopt($curl, CURLOPT_POSTFIELDS, $parameters);
 		}
 		
 		curl_setopt($curl2, CURLOPT_URL, $url);
