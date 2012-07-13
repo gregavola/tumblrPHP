@@ -12,7 +12,7 @@ require_once('OAuth.php');
 
 class Tumblr {
 	
-	public $conumer_key;
+	public $consumer_key;
 	public $consumer_secret;
 	
 	public $client_key;
