@@ -16,7 +16,7 @@ class Tumblr {
 	public $consumer_secret;
 	
 	public $client_key;
-	public $client_srect;
+	public $client_secret;
 	
 	public $userAgent = "TumblrPHP 1.0";
 	
