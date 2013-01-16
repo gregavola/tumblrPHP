@@ -2,6 +2,8 @@
 
 This a library written to interact with the Tumblr API (http://www.tumblr.com/docs/en/api/v2) using both oAuth Authenticated Calls and Non-Authenticated calls.<br />
 
+# Please note that OAuth is currently broken in this script. I am currently in the process of updating the repo to fix the issue. #
+
 # Requirements
 PHP 5+<br />
 CURL<br />
