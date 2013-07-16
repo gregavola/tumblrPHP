@@ -2,7 +2,7 @@
 
 session_start();
 
-require ("../lib/tumblrPHP.php");
+include ("../lib/tumblrPHP.php");
 
 // Enter your Consumer / Secret Key:
 $consumer = "CONSUMER_KEY";

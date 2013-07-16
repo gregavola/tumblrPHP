@@ -1,6 +1,6 @@
 <?php
 
-require ("tumblrPHP.php");
+include ("../lib/tumblrPHP.php");
 
 // Enter your Consumer (Also known as oyur API KEY)
 $consumer = "CONSUMER_KEY";
