@@ -2,7 +2,8 @@
 
 This a library written to interact with the Tumblr API (http://www.tumblr.com/docs/en/api/v2) using both oAuth Authenticated Calls and Non-Authenticated calls.<br />
 
-# Please note that OAuth is currently broken in this script. I am currently in the process of updating the repo to fix the issue. #
+# Update 
+The OAuth Script has been tested and is now working again.
 
 # Requirements
 PHP 5+<br />
@@ -10,7 +11,7 @@ CURL<br />
 oAuth for PHP (included in this repo)<br />
 
 # Getting Started
-Follow the instructions in <code>index.php</code> for a detailed example of the OAuth authentication. 
+Follow the instructions in <code>oauth_examples/..</code> for a detailed example of the OAuth authentication. If you want basic authentication examples, please see the <code>basic_examples/..</code> folder.
 
 <br />After obtaining the Authentication tokens, if you want to make authenticated calls you just need to use the following method:
 
