@@ -57,8 +57,16 @@ class Tumblr {
 	*
 	*/
 	
+	
 	public function get($url, $params = array()) {
-		$url = $this->apiBase . $url . "?api_key=".$this->consumer_key . (!empty($params) ? "&".http_build_query($params) : "");
+		
+		if (sizeof($params) == 0) {
+			$url = $this->apiBase . $url . "?api_key=".$this->consumer_key;
+		}
+		else {
+			$url = $this->apiBase . $url . "?api_key=".$this->consumer_key . "&". http_build_query($params);
+		}
+	
 		$response = $this->call($url, 'GET', $params);
 		return json_decode($response);
 	}
