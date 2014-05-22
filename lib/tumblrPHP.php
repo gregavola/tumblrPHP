@@ -131,7 +131,7 @@ class Tumblr {
 	* @returns an array of Access tokens
 	*/
 	
-	function getAcessToken($oauth_verifier = FALSE) {
+	function getAccessToken($oauth_verifier = FALSE) {
 		$parameters = array();
 	    if (!empty($oauth_verifier)) {
 	      $parameters['oauth_verifier'] = $oauth_verifier;
