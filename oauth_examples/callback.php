@@ -20,7 +20,7 @@ $token = $tumblr->getAccessToken($oauth_verifier);
 $_SESSION['oauth_token'] = $token['oauth_token'];
 $_SESSION['oauth_token_secret'] = $token['oauth_token_secret'];
 
-// Create a new instance of the Tumblr Class with the Request Tokens that we just set at line 40 and 41
+// Create a new instance of the Tumblr Class with the Request Tokens that we just set at line 20 and 21
 $tumblr = new Tumblr($consumer, $secret, $_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
 
 // Grab the followers by using the oauth_get method.
